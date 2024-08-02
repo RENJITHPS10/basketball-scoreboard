@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="home">
+            <h1> HOME</h1>
+            <div class="box">
+                <p id="p1"></p>
+            </div>
+            <button onclick="plus1()">+1</button>
+            <button onclick="plus2()">+2</button>
+            <button onclick="plus3()">+3</button>
+        </div>
+        <div class="home">
+            <h1> GUEST</h1>
+            <div class="box">
+                <p id="p2"></p>
+            </div>
+            <button onclick="p2plus1()">+1</button>
+            <button onclick="p2plus2()">+2</button>
+            <button onclick="p2plus3()">+3</button>
+
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

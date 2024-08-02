@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url(./images/1351758.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
+        url(./images/1350864.png);
+    background-size: cover;
+    height: 70vh;
+    width: 600px;
+    padding-top: 50px
+}
+
+.home h1 {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.box {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(33 38 81 / 86%);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.box p {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+
+}
+
+button {
+    width: 45px;
+    height: 35px;
+    margin: 20px 10px;
+    background-color: rgba(64, 67, 224, 0.416);
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(5, 241, 123);
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+
+#reset {
+    position: absolute;
+    /* Position button absolutely within the container */
+    bottom: 140px;
+    width: 300px;
+    height: 50px;
+
+
+}
